@@ -1,0 +1,59 @@
+.dataTables_wrapper .dataTables_scroll {
+        border: 1px solid #ccc;
+        margin: 1.5rem 0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    div.dataTables_scrollHead table.dataTable {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        border: 0 !important;
+
+    }
+
+    .dataTables_scrollBody {
+        overflow-x: hidden !important;
+         border-top: 1px solid #ccc;
+    }
+ 
+
+.table {
+border-left:0px !important;
+border-right:0px !important;
+}
+
+#map {
+    height: 100%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.table th {
+border-bottom: 0 !important;
+}
+#plantInformation tbody tr th:nth-child(odd){
+    font-size:14px;
+    color: gray;
+}
+#plantInformation tbody tr th:nth-child(even){
+    font-size:14px;
+    color: black;
+}
+
+.recommendations{
+font-size: 14px;
+}
+/* .list-unstyled li{
+    display: inline-block;
+
+}
+.list-unstyled .active{
+    color: green;
+    } */

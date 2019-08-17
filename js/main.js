@@ -2,8 +2,7 @@
 (function ($) {
   // USE STRICT
   "use strict";
-
-  try {
+   try {
     //WidgetChart 1
     var ctx = document.getElementById("widgetChart1");
     if (ctx) {
@@ -14,7 +13,7 @@
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
           type: 'line',
           datasets: [{
-            data: [78, 81, 80, 45, 34, 12, 40],
+            data: [78, 81, 80, 45, 34, 12, 27.1],
             label: 'Dataset',
             backgroundColor: 'rgba(255,255,255,.1)',
             borderColor: 'rgba(255,255,255,.55)',
@@ -389,8 +388,6 @@
   } catch (error) {
     console.log(error);
   }
-
-
 
   try {
 
